@@ -4,4 +4,4 @@ steps:
       docker#v1.1.1:
         image: hseeberger/scala-sbt
         workdir: /code
-        volumes: ./code
+    artifact_paths: "target/**/*.jar"
